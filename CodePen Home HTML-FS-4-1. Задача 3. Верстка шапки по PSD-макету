@@ -1,0 +1,52 @@
+HTLM:
+<header class="header">
+  <div class="container">
+    <img src="https://netology-code.github.io/html-2-homeworks/popup-elements/psd-header-layout/img/logo-dropp.svg" class="header-logo" alt>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a class="menu-link" href="#home">Home</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-link" href="#0">Services</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-link" href="#0">Portfolio</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-link" href="#0">About</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-link" href="#0">Blog</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-link" href="#0">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+CSS:
+.header {
+  padding: 35px 0;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+}
+
+.header-logo{
+  width: 245px;
+}
+
+.menu{
+  margin-top: 20px;
+}
+
+.menu-list-item:nth-child(n+2) {
+  margin-left: 50px;
+}
+CSS:
+CodePen Home
+HTML-FS-4-1. Задача 3. Верстка шапки по PSD-макету
