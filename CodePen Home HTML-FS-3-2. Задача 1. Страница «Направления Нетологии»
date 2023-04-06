@@ -1,0 +1,34 @@
+HTML:
+<div class="hero">
+    <div class="hero-container">
+      <span class="hero-label">Получите востребованную интернет-профессию в университете Нетология</span>
+      <div class="courses">
+        <span class="courses-hint">Выберите направление:</span>
+        <ul class="courses-list">
+          <li class="courses-list-item"><a href="#0" class="course">Маркетинг</a></li>
+          <li class="courses-list-item"><a href="#0" class="course">Бизнес и управление</a></li>
+          <li class="courses-list-item"><a href="#0" class="course">Дизайн</a></li>
+          <li class="courses-list-item"><a href="#0" class="course">Программирование</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  CSS:
+  .courses-list-item {
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+    display: inline-block;
+  vertical-align: top;   
+}
+
+.course {
+  padding: 20px 45px;
+}
+.hero {
+  text-align: center;
+ background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/courses/img/presentation.jpg);
+  background-color: #6d6c69;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
