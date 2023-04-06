@@ -1,0 +1,28 @@
+HTML:
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+.card {
+  box-sizing:border-box;
+  padding: 160px 30px;
+  width: 420px;
+}
+.services {
+  width: 1260px;
+}
+CSS:
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+.card {
+  box-sizing:border-box;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+  padding: 50px 40px;
+  width: 320px;
+}
+.news {
+    width: 960px;
+}
