@@ -1,0 +1,35 @@
+HTML:
+<header class="welcome">
+  <div class="container">
+    <h1 class="welcome-title">Тур в самое сердце Каталонии</h1>
+    <div class="welcome-description">
+      <p>Мы представляем Вам наш специальный тур в замечательный город Барселона. Вы сможете посмотреть уникальную архитектуру Гауди, насладиться великолепными парками  и в живую увидеть Лионеля Месси</p>
+    </div>
+  </div>
+</header>
+CSS:
+.welcome {
+  position: relative;
+  background-image: url("https://netology-code.github.io/html-2-homeworks/popup-elements/tour-page-header/img/barcelona.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: black;
+  z-index: 0;
+}
+
+.welcome::after {
+  position: absolute;
+  content: ""; 
+  background-color: black;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  opacity: 0.45;
+  z-index: -1;
+}  
+
+.welcome-title {
+  text-transform: uppercase;
+}
