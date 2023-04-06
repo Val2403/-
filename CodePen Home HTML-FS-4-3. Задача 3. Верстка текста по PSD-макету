@@ -1,0 +1,25 @@
+HTML:
+<div class="container">
+	<p>
+		Верстка это не просто реализация картинки, это первый шаг к удобному для людей интерфейсу  
+	</p>
+</div>
+CSS:
+@font-face {
+  font-family: 'lobster';
+  src: url('https://netology-code.github.io/html-2-homeworks/flex-elements-positioning/font-face/fonts/lobster-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  line-height: 60px;
+}
+
+.container {
+  font-family: lobster, cursive;
+  font-size: 40px;
+	text-align: center;
+  color: white;
+  width: 880px;
+}
